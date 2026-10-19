@@ -1,0 +1,7 @@
+# Zależności starego projektu (kalkulator kieszonkowego).
+# Instalacja: w tym katalogu, w aktywnym środowisku venv:
+#   pip install -r requirements.txt
+# Paczki leżą w ../paczki, więc pip nie potrzebuje internetu.
+--no-index
+--find-links ../paczki
+kantor==1.0.0
